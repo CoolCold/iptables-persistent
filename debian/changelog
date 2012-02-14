@@ -1,3 +1,12 @@
+iptables-persistent (0.5.3+nmu1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * debian/control
+    - add "Depends: kmod" to properly call modprobe in postinst
+      (Closes: #656348)
+
+ -- Hideki Yamane <henrich@debian.org>  Sat, 28 Jan 2012 11:00:31 +0900
+
 iptables-persistent (0.5.3) unstable; urgency=low
 
   * [09d9ae] Check for loaded modules in postinst (Closes: #637852)
